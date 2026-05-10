@@ -1,0 +1,33 @@
+{% extends 'blog/base.html' %}
+{% load blog_tags %}
+{% block title %}{{post.title}}{% endblock %}
+{% block content %}
+    <h2> {{post.title}} </h2>
+    <p class="date">
+        Published on {{post.publish}} by {{post.author}}
+        <br>
+        {{post.body|markdown}}
+    </p>
+    <h2> Similar posts </h2>
+        {% for post in similar_posts %}
+        <p>
+            <a href="{{post.get_absolute_url}}">
+                {{post.title}}
+            </a>
+        </p>
+          {%empty%} 
+            there is no similar post yet.
+        {%endfor%}    
+    {% for c in comments %}
+        <div class="comment">
+            <p class="info">
+                Comment {{ forloop.counter }} by {{ c.name }} {{ c.created }} 
+            </p>
+            {{c.body|linebreaks}}
+    </div>
+    {% empty %}
+        <p>No comments available.</p>
+    {% endfor %}
+    
+    {% include "blog/post/includes/comment_form.html" %}
+{% endblock %}

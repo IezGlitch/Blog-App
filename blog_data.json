@@ -1,0 +1,984 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$wsTkzp0Coi2Py5POjdU00B$ZKrdVrAWC3/RO0ht0uBocurIUfd4zE69g8ZVOSGV4YU=",
+    "last_login": "2026-03-27T06:21:14.865Z",
+    "is_superuser": true,
+    "username": "mitali",
+    "first_name": "",
+    "last_name": "",
+    "email": "mitalipanda406@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-19T03:20:51.166Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$JJPdDbNKuOQceni6EGz8rR$DFUML6p/WYd8LB82It4pKnBw1mSczmDcB06ee/73ltM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mitun",
+    "first_name": "mitali",
+    "last_name": "panda",
+    "email": "mitun602@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-02-25T10:18:33Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "panda",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-02-25T11:26:10.651Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4qkzdsjhiingsogwln8grqylliy0ag38",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlne-E9JnzNY9u6CA8iR4qRC3B0ipYD2zcx7iZS3taat85ImEmcB4vS7lYwPbjuge263WeLc1mUqclfkQbscZ-Ln5XD_Dmru9Vujs2CCIT1o0sGCigW1L6w4WvYqREQNKiMa7-IVNHrvCDB6NagSyYj3B8JtNxU:1w0vTk:MlfCLP947mYm-h0yZIInLaBm52t-iWdYCbG5aKMRtGc",
+    "expire_date": "2026-03-27T05:54:32.430Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "a45nub04dpi06mq71vdtezwqbs9zwj3k",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlne-E9JnzNY9u6CA8iR4qRC3B0ipYD2zcx7iZS3taat85ImEmcB4vS7lYwPbjuge263WeLc1mUqclfkQbscZ-Ln5XD_Dmru9Vujs2CCIT1o0sGCigW1L6w4WvYqREQNKiMa7-IVNHrvCDB6NagSyYj3B8JtNxU:1vsubt:6tdsL6PbgqxGkg3Xhc0SrVaHEpNBlgf-5obF1eybCUg",
+    "expire_date": "2026-03-05T03:21:49.017Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "eghto9z038hmr6js9pxaubhuupn5ycsk",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlne-E9JnzNY9u6CA8iR4qRC3B0ipYD2zcx7iZS3taat85ImEmcB4vS7lYwPbjuge263WeLc1mUqclfkQbscZ-Ln5XD_Dmru9Vujs2CCIT1o0sGCigW1L6w4WvYqREQNKiMa7-IVNHrvCDB6NagSyYj3B8JtNxU:1vvBhj:h4H5TEenUpdFwJ7WpKDHgZ8g-Cr2fFCvjFCqqNFWjD8",
+    "expire_date": "2026-03-11T10:01:15.234Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jatrgjmani396xm1wpux4a4t94jwca0z",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlne-E9JnzNY9u6CA8iR4qRC3B0ipYD2zcx7iZS3taat85ImEmcB4vS7lYwPbjuge263WeLc1mUqclfkQbscZ-Ln5XD_Dmru9Vujs2CCIT1o0sGCigW1L6w4WvYqREQNKiMa7-IVNHrvCDB6NagSyYj3B8JtNxU:1w0HrX:-Djn3NMCy_1Sast77jX3uWuBSjEC3rAAtwzhUEtv7Uk",
+    "expire_date": "2026-03-25T11:36:27.637Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "n097358qml4l51cswnsmda51wqo26snf",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlne-E9JnzNY9u6CA8iR4qRC3B0ipYD2zcx7iZS3taat85ImEmcB4vS7lYwPbjuge263WeLc1mUqclfkQbscZ-Ln5XD_Dmru9Vujs2CCIT1o0sGCigW1L6w4WvYqREQNKiMa7-IVNHrvCDB6NagSyYj3B8JtNxU:1w60ZG:jSUJ2cwbykfkVd-6Q6-OqZkG-PreDVFsNs0F1lr3rhk",
+    "expire_date": "2026-04-10T06:21:14.867Z"
+  }
+},
+{
+  "model": "sites.site",
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "hello csw",
+    "slug": "abcd",
+    "author": [
+      "mitali"
+    ],
+    "body": "hi i am mitali.",
+    "publish": "2026-02-19T04:28:55Z",
+    "created": "2026-02-19T04:29:43.183Z",
+    "updated": "2026-02-19T04:29:43.183Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "dream",
+    "slug": "dream3",
+    "author": [
+      "mitali"
+    ],
+    "body": "my dream is complex",
+    "publish": "2026-02-19T05:07:32Z",
+    "created": "2026-02-19T05:11:52.199Z",
+    "updated": "2026-02-19T05:11:52.199Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "CSW Class",
+    "slug": "csw-class",
+    "author": [
+      "mitali"
+    ],
+    "body": "Django ORM",
+    "publish": "2026-02-20T07:09:22Z",
+    "created": "2026-02-20T07:10:16.690Z",
+    "updated": "2026-03-13T05:56:32.533Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "hi again",
+    "slug": "hi-again",
+    "author": [
+      "mitun"
+    ],
+    "body": "tikki",
+    "publish": "2026-02-25T10:21:42Z",
+    "created": "2026-02-25T10:22:32.395Z",
+    "updated": "2026-02-25T10:22:32.395Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "csw2 class",
+    "slug": "csw2 class",
+    "author": [
+      "mitun"
+    ],
+    "body": "object creation",
+    "publish": "2026-02-25T11:23:53.370Z",
+    "created": "2026-02-25T11:23:53.371Z",
+    "updated": "2026-02-25T11:23:53.371Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "csw3 class",
+    "slug": "csw2 class",
+    "author": [
+      "panda"
+    ],
+    "body": "object creation",
+    "publish": "2026-02-25T11:28:22.715Z",
+    "created": "2026-02-25T11:28:22.715Z",
+    "updated": "2026-02-25T11:28:22.715Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "hlo bachonnn",
+    "slug": "csw2 class",
+    "author": [
+      "panda"
+    ],
+    "body": "object updation",
+    "publish": "2026-02-25T11:28:48.763Z",
+    "created": "2026-02-25T11:28:48.763Z",
+    "updated": "2026-02-25T11:29:58.731Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "poost",
+    "slug": "poost",
+    "author": [
+      "mitali"
+    ],
+    "body": "Hypertext Markup Language (HTML) is the standard markup language[a] for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.\r\n\r\nWeb browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.\r\n\r\nHTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as <img> and <input> directly introduce content into the page. Other tags such as <p> and </p> surround and provide information about document text and may include sub-element tags. Browsers do not display the HTML tags, but use them to interpret the content of the page.\r\n\r\nHTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[3] A form of HTML, known as HTML5, is used to display video and audio, primarily using the <canvas> element, together with JavaScript.",
+    "publish": "2026-03-11T11:36:31Z",
+    "created": "2026-03-11T11:37:50.857Z",
+    "updated": "2026-03-11T11:37:50.857Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "PVTadmin",
+    "slug": "pvtadmin",
+    "author": [
+      "mitali"
+    ],
+    "body": "This  is a new blog",
+    "publish": "2026-03-13T05:54:34Z",
+    "created": "2026-03-13T05:55:20.021Z",
+    "updated": "2026-04-01T10:51:19.386Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "AgainBlog",
+    "slug": "againblog",
+    "author": [
+      "panda"
+    ],
+    "body": "This is another blog",
+    "publish": "2026-03-13T05:55:23Z",
+    "created": "2026-03-13T05:55:45.420Z",
+    "updated": "2026-04-01T10:51:00.985Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 12,
+  "fields": {
+    "title": "Newblog",
+    "slug": "newblog",
+    "author": [
+      "mitun"
+    ],
+    "body": "Again a new blog!!",
+    "publish": "2026-03-13T05:55:47Z",
+    "created": "2026-03-13T05:56:17.053Z",
+    "updated": "2026-04-01T10:50:45.491Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 13,
+  "fields": {
+    "title": "Markdown Post",
+    "slug": "markdown-post",
+    "author": [
+      "mitali"
+    ],
+    "body": "This post is written in markdown format.\r\n---------------------------------------------------------------\r\n\r\n**Bold Text**\r\n\r\n*Italic Text*\r\n\r\nThis is a list.\r\n\r\n- One\r\n- Two\r\n- Three\r\n\r\n[Google](https://www.google.com/)",
+    "publish": "2026-04-02T03:57:33Z",
+    "created": "2026-04-02T04:01:44.829Z",
+    "updated": "2026-04-02T04:07:32.708Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "csw",
+    "slug": "csw"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Bayblade",
+    "slug": "bayblade"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Remote",
+    "slug": "remote"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Car",
+    "slug": "car"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Haathi",
+    "slug": "haathi"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Toy",
+    "slug": "toy"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Specs",
+    "slug": "specs"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 4,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 5,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 6,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 8,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 7,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 9,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 4,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 5,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 10,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 13
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-02-19T04:29:43.185Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "1",
+    "object_repr": "hello csw",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-02-19T05:11:52.200Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "2",
+    "object_repr": "dream",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-02-19T05:19:54.752Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "3",
+    "object_repr": "hello3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-02-25T10:18:33.396Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "mitun",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-02-25T10:19:12.426Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "mitun",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-02-25T10:20:25.742Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "mitun",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-02-25T10:22:32.395Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "5",
+    "object_repr": "hi again",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-03-11T11:37:50.859Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "9",
+    "object_repr": "poost",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-03-13T05:55:20.021Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "10",
+    "object_repr": "PVTadmin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-03-13T05:55:45.421Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "11",
+    "object_repr": "AgainBlog",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-03-13T05:56:17.054Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "12",
+    "object_repr": "Newblog",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-03-13T05:56:32.534Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "4",
+    "object_repr": "CSW Class",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-03-13T06:00:33.996Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "12",
+    "object_repr": "Newblog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-03-13T06:00:40.225Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "11",
+    "object_repr": "AgainBlog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-04-01T10:01:47.792Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "12",
+    "object_repr": "Newblog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-04-01T10:30:14.498Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "11",
+    "object_repr": "AgainBlog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-04-01T10:50:45.498Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "12",
+    "object_repr": "Newblog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-04-01T10:51:00.991Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "11",
+    "object_repr": "AgainBlog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-04-01T10:51:19.392Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "10",
+    "object_repr": "PVTadmin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-04-02T04:01:44.834Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "13",
+    "object_repr": "Markdown Post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-04-02T04:02:16.781Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "13",
+    "object_repr": "Markdown Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-04-02T04:02:52.253Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "13",
+    "object_repr": "Markdown Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-04-02T04:03:14.069Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "13",
+    "object_repr": "Markdown Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-04-02T04:05:33.983Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "13",
+    "object_repr": "Markdown Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-04-02T04:07:32.711Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "13",
+    "object_repr": "Markdown Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-04-02T05:02:41.695Z",
+    "user": [
+      "mitali"
+    ],
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+}
+]

@@ -1,0 +1,34 @@
+{% load blog_tags %}
+{% load static %}
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> {% block title %}{% endblock %} </title>
+        </head>
+        <body>
+            <div id="content">
+            {% block content %}
+            {% endblock %}
+            </div>
+            <div id="side bar">
+                <h1> My Webo </h1>
+                <p> This is my blog website 
+                    I have published {% total_posts %} posts so far.
+                </p>
+                <h2> Latest Post </h2>
+                <p> Here are some latest post
+                    {% show_latest_posts %} </p>
+                <h2> Most commented Post </h2>
+                {% get_most_commented_posts as most_commented_posts %}
+                <ul>
+                    {% for post in most_commented_posts %}
+                        <l1>
+                            <a href="{{post.get_absolute_url}}">
+                                {{post.title}}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </body>
+    </html>
