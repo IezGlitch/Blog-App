@@ -21,9 +21,9 @@ def post_list(request, tag_slug=None):
     try:
         posts=paginator.page(page_number)
     except EmptyPage:
-        post=paginator.page(paginator.num_pages)
+        posts=paginator.page(paginator.num_pages)
     except PageNotAnInteger:
-        post=paginator.page(1)
+        posts=paginator.page(1)
     return render(request,"blog/post/list.html",{'posts':posts, 'tag':tag})
 
 '''class PostListView(ListView):
@@ -58,7 +58,7 @@ def post_share(request, post_id):
 
         if form.is_valid():
             cd = form.cleaned_data
-            post_url = request.build_absolute_url(post.get_absolute_url())
+            post_url = request.build_absolute_uri(post.get_absolute_url())
 
             subject = f"{cd['name']} recommends you to read {post.title}"
             message = (

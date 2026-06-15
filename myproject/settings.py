@@ -42,9 +42,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.sites",
     "django.contrib.sitemaps",
-    "django.contrib.postgres",
     'blog.apps.BlogConfig',
-    "taggit",
+    'taggit',
     
 ]
 
@@ -94,7 +93,6 @@ DATABASES = {
     }
 }
 
-
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
 
@@ -131,6 +129,9 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+]
 
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_HOST_USER=config('EMAIL_HOST_USER')
