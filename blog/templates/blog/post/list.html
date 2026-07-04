@@ -1,10 +1,6 @@
 {% extends "blog/base.html" %}
 {% block title %} My Blog {% endblock %}
 {% block content %}
-<form method="get">
-    <input type="text" name="query" placeholder="Search posts">
-    <button type="submit">Search</button>
-</form>
     <h1>My blog </h1>
     {% if tag %}
       <h2> Posts tagged with "{{tag.name}}" </h2>

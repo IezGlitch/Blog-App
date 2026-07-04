@@ -1,0 +1,22 @@
+{% extends "blog/base.html" %}
+{% block title %} Dashboard {% endblock %}
+{% block content %}
+  <h1>Welcome, {{ user.username }}</h1>
+  <p>Email: {{ user.email }}</p>
+  <p>Joined: {{ user.date_joined|date:"F j, Y" }}</p>
+
+  <h2>Your posts</h2>
+  {% if my_posts %}
+    <ul>
+      {% for post in my_posts %}
+        <li>
+          <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+          — {{ post.get_status_display }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>You haven't authored any posts yet. Posts can currently be created from the
+      <a href="/admin/">admin panel</a> by an author account.</p>
+  {% endif %}
+{% endblock %}

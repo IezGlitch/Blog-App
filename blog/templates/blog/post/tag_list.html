@@ -1,0 +1,17 @@
+{% extends "blog/base.html" %}
+{% block title %} Browse Tags {% endblock %}
+{% block content %}
+  <h1>Browse by tag</h1>
+  {% if tags %}
+    <ul class="tag-list">
+      {% for tag in tags %}
+        <li>
+          <a href="{% url 'blog:post_list_by_tag' tag.slug %}">{{ tag.name }}</a>
+          ({{ tag.post_count }})
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No tags yet.</p>
+  {% endif %}
+{% endblock %}

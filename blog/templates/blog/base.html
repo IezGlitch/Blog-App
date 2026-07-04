@@ -1,35 +1,62 @@
 {% load blog_tags %}
 {% load static %}
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title> {% block title %}{% endblock %} </title>
-            <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-        </head>
-        <body>
-            <div id="content">
+<html>
+<head>
+    <title>{% block title %}{% endblock %} | My Blog</title>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="brand" href="{% url 'blog:post_list' %}">My Blog</a>
+
+        <ul class="nav-links">
+            <li><a href="{% url 'blog:post_list' %}">Home</a></li>
+            <li><a href="{% url 'blog:tag_list' %}">Tags</a></li>
+            <li><a href="{% url 'blog:post_feed' %}">RSS Feed</a></li>
+        </ul>
+
+        <form class="nav-search" method="get" action="{% url 'blog:post_search' %}">
+            <input type="text" name="query" placeholder="Search posts">
+            <button type="submit">Search</button>
+        </form>
+
+        <ul class="nav-auth">
+            {% if user.is_authenticated %}
+                <li><a href="{% url 'accounts:dashboard' %}">{{ user.username }}</a></li>
+                <li>
+                    <form method="post" action="{% url 'logout' %}">
+                        {% csrf_token %}
+                        <button type="submit" class="link-button">Log out</button>
+                    </form>
+                </li>
+            {% else %}
+                <li><a href="{% url 'login' %}">Log in</a></li>
+                <li><a href="{% url 'accounts:register' %}">Register</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+
+    <div class="page">
+        <div id="content">
             {% block content %}
             {% endblock %}
-            </div>
-            <div id="side bar">
-                <h1> My Webo </h1>
-                <p> This is my blog website 
-                    I have published {% total_posts %} posts so far.
-                </p>
-                <h2> Latest Post </h2>
-                <p> Here are some latest post
-                    {% show_latest_posts %} </p>
-                <h2> Most commented Post </h2>
-                {% get_most_commented_posts as most_commented_posts %}
-                <ul>
-                    {% for post in most_commented_posts %}
-                        <li>
-                            <a href="{{post.get_absolute_url}}">
-                                {{post.title}}
-                            </a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </body>
-    </html>
+        </div>
+        <div id="sidebar">
+            <h2>About</h2>
+            <p>This is my blog. I have published {% total_posts %} posts so far.</p>
+
+            <h2>Latest posts</h2>
+            {% show_latest_posts %}
+
+            <h2>Most commented</h2>
+            {% get_most_commented_posts as most_commented_posts %}
+            <ul>
+                {% for post in most_commented_posts %}
+                    <li><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

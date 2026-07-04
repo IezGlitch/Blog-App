@@ -291,3 +291,131 @@ article {
   color: var(--text-muted);
   font-size: 0.85rem;
 }
+
+/* ============================================
+   Navbar
+   ============================================ */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--surface-border);
+  padding: 0.9rem 1.5rem;
+}
+
+.navbar .brand {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  flex: 1;
+}
+
+.navbar a {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.navbar a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.nav-search {
+  display: flex;
+  gap: 0.4rem;
+  margin: 0;
+}
+
+.nav-search input[type="text"] {
+  padding: 0.4rem 0.7rem;
+  font-size: 0.88rem;
+}
+
+.nav-search button {
+  padding: 0.4rem 0.9rem;
+  font-size: 0.88rem;
+}
+
+.nav-auth {
+  gap: 0.9rem;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  font-family: var(--font-body);
+  font-weight: 400;
+  padding: 0;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  color: var(--accent);
+  opacity: 1;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nav-search {
+    order: 3;
+    width: 100%;
+  }
+}
+
+/* ============================================
+   Auth forms (login / register)
+   ============================================ */
+
+.helptext {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+ul.errorlist {
+  color: #e07d7d;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+}
+
+/* ============================================
+   Tag list page
+   ============================================ */
+
+.tag-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--surface-border);
+}

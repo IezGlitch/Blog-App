@@ -95,6 +95,15 @@ def post_comment(request, post_id):
         comment.save()
     return render(request, 'blog/post/share.html',{'post': post, 'form': form, 'comment': comment})
 
+def tag_list(request):
+    tags = (
+        Tag.objects.annotate(post_count=Count("taggit_taggeditem_items"))
+        .filter(post_count__gt=0)
+        .order_by("-post_count", "name")
+    )
+    return render(request, "blog/post/tag_list.html", {"tags": tags})
+
+
 def post_search(request):
     form=SearchForm()
     query=None
